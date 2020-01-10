@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.center {
+  width: 50%;
+  border-radius: 25px;
+  background: #EDCE85;
+  padding: 20px;
+  color: #264653;
+  box-shadow: 3px 3px 3px #264653;
+}
+
+.address-bar {
+  width: 30%;
+  border-radius: 25px;
+  border-style: none;
+  height: 1.45em;
+  padding: 5px 5px 5px 15px;
+  font-family: "Ubuntu";
+  color: #264653;
+  background: #F3DEAD;
+  font-size: 17px;
+  box-shadow: 2px 2px 2px #264653;
+}
+
+.address-bar:focus{
+  outline: none
+}
+
+.button{
+  border-radius: 25px;
+  border-style: none;
+  height: 2em;
+  font-family: "Ubuntu";
+  color: #264653;
+  background: #F4A261;
+  font-size: 17px;
+  padding: 3px 15px 5px 15px;
+  box-shadow: 2px 2px 2px #264653;
+}
+
+.button:hover{
+  background: #F5AA6F
+}
+
+.button:focus{
+  outline: none
+}
+
+.top-bar-button {
+  margin-left: 10px;
+}
+
+.bottom-button {
+  margin-top: 20px;
+}
+
+.voting-table {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.voting-table a {
+  color: #EB8970;
+} 
+
+.voting-table p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.location-info {
+  background: #F3DEAD;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px #264653;
+  padding: 15px 0px 1px 0px;
+  margin: 0px 0px 5px 0px;
+}
+
+.location-info-winner {
+  background: #B1DBD6;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px #264653;
+  padding: 15px 0px 1px 0px;
+  margin: 0px 0px 5px 0px;
+}
+
+.participant-column {
+  width: 35%,;
+}
+
+.voting-column {
+  width: 22%;
+}
+
+.new-participant-bar {
+  width: 90%;
+  border-radius: 25px;
+  border-style: none;
+  height: 1.45em;
+  padding: 5px 5px 5px 15px;
+  font-family: "Ubuntu";
+  color: #264653;
+  background: #F3DEAD;
+  font-size: 17px;
+  box-shadow: 2px 2px 2px #264653;
+}
+
+.new-participant-bar:focus{
+  outline: none
+}
+
+.voted-field{
+  background: #8AC9C1;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px #264653;
+}
+
+.empty-field{
+  background: #F3DEAD;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px #264653;
+}
